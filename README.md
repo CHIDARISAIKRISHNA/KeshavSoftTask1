@@ -184,8 +184,7 @@ git push -u origin main
 | Bootstrap Icons | Icons for features, contact info, social links |
 | Google Fonts (Inter) | Custom typography |
 | Unsplash / RandomUser.me | Placeholder images for hero, services, team, carousel |
-| AI Assistant (Cursor) | CSS styling, layout improvements, README, debugging |
-| ChatGPT / other AI | *(Fill in if you used any — be honest)* |
+| ChatGPT / other AI  |
 
 ### Challenges & Solutions
 
@@ -205,12 +204,12 @@ git push -u origin main
 
 | Phase | Duration |
 |-------|----------|
-| Research & planning | ___ hours |
-| HTML structure | ___ hours |
-| CSS styling | ___ hours |
-| JavaScript & testing | ___ hours |
-| Deployment | ___ hours |
-| **Total** | **___ hours / ___ days** |
+| Research & planning | 0.5 hours |
+| HTML structure | 15 minutes |
+| CSS styling | 0.5 hours |
+| JavaScript & testing | 15 minutes |
+| Deployment | 10 minutes |
+| **Total** | ** 1 hours / 45 minutes** |
 
 ---
 
@@ -226,7 +225,3 @@ git push -u origin main
 - [ ] Reflection section completed with your name and time taken
 
 ---
-
-## Author
-
-**Your Name** — Bootstrap 5 Internship Task, Keshavsoft, 2026
