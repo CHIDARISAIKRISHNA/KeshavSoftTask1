@@ -10,7 +10,6 @@ A responsive multi-page website built for the **Bootstrap 5 Internship Task** at
 | **GitHub Repository** | `https://github.com/CHIDARISAIKRISHNA/KeshavSoftTask1` |
 | **Live Preview** | `https://saikrishnakeshavsofttask1.netlify.app/` |
 
-> Replace `yourusername` with your actual GitHub username after deploying.
 
 ---
 
@@ -123,7 +122,7 @@ Bootstrap_Keshavsoft/
 
 ---
 
-## Deploy to GitHub Pages
+## Deploy to GitHub Pages or Netlify
 
 1. Create a new repository on GitHub
 2. Push all project files to the `main` branch:
@@ -141,7 +140,7 @@ git push -u origin main
 4. Under **Source**, select **Deploy from branch**
 5. Choose **main** branch and **/ (root)** folder
 6. Click **Save** — your site will be live at:
-   `https://yourusername.github.io/Bootstrap_Keshavsoft`
+  
 
 ### Alternative: Netlify
 
@@ -161,10 +160,6 @@ git push -u origin main
 
 ---
 
-## Project Reflection
-
-> **Note:** This section is mandatory for internship submission. Fill in the personal parts honestly before submitting.
-
 ### Step-by-Step Process
 
 1. **Explored Bootstrap 5 documentation and examples** — studied Navbar, Cards, Carousel, Grid, Forms, Accordion, and Modal from [getbootstrap.com](https://getbootstrap.com) and the official Examples section.
@@ -183,7 +178,7 @@ git push -u origin main
 | Bootstrap Icons | Icons for features, contact info, social links |
 | Google Fonts (Inter) | Custom typography |
 | Unsplash / RandomUser.me | Placeholder images for hero, services, team, carousel |
-| ChatGPT / other AI  |
+| ChatGPT |
 
 ### Challenges & Solutions
 
@@ -195,9 +190,6 @@ git push -u origin main
 | Responsive layout on mobile | Bootstrap `col-*` grid classes + custom media queries in `style.css` |
 | Carousel styling to match site theme | Custom CSS for testimonial cards, circular controls, and dot indicators |
 
-### Learning Journey
-
-*(Write 2–3 paragraphs in your own words. Example topics: what you learned about Bootstrap grid, how you remixed components, responsive design, CSS customization, etc.)*
 
 ### Time Taken
 
@@ -208,19 +200,7 @@ git push -u origin main
 | CSS styling | 0.5 hours |
 | JavaScript & testing | 15 minutes |
 | Deployment | 10 minutes |
-| **Total** | ** 1 hours / 45 minutes** |
+| **Total** | ** 1 hours / 40 minutes** |
 
 ---
 
-## Submission Checklist
-
-- [ ] All 3 pages complete (`index.html`, `about.html`, `contact.html`)
-- [ ] Bootstrap 5 loaded via CDN
-- [ ] Responsive on desktop, tablet, and mobile
-- [ ] Contact form validates and shows modal
-- [ ] Code pushed to GitHub
-- [ ] Deployed on GitHub Pages or Netlify
-- [ ] Live URL added above
-- [ ] Reflection section completed with your name and time taken
-
----
