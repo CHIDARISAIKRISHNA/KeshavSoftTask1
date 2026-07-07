@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | CSK — Bootstrap 5 UI Project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="contact-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-bootstrap-fill"></i> CSK
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero text-center">
+        <div class="container">
+            <h1>Contact CSK</h1>
+            <p class="lead">We'd love to hear from you — send us a message and we'll respond promptly.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="contact-form-wrap">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm" novalidate>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" for="firstName">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="Enter first name" required>
+                                    <div class="invalid-feedback">Please enter your first name.</div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" for="lastName">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="Enter last name" required>
+                                    <div class="invalid-feedback">Please enter your last name.</div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label" for="phone">Phone</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="+91 98765 43210">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label" for="subject">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="How can we help?">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label" for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Write your message..." required></textarea>
+                                <div class="invalid-feedback">Please enter your message.</div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="bi bi-send me-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <h2 class="fw-bold mb-4">Contact Information</h2>
+
+                    <div class="card contact-info-card">
+                        <div class="card-body">
+                            <div class="info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <h5>Address</h5>
+                                <p>CSK Technologies<br>Hyderabad, Telangana, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card contact-info-card">
+                        <div class="card-body">
+                            <div class="info-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>contact@csk.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card contact-info-card">
+                        <div class="card-body">
+                            <div class="info-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card contact-info-card">
+                        <div class="card-body">
+                            <div class="info-icon"><i class="bi bi-clock-fill"></i></div>
+                            <div>
+                                <h5>Working Hours</h5>
+                                <p>Monday – Friday<br>9:00 AM – 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Find Us</span>
+                <h2>Our Location</h2>
+            </div>
+            <div class="map-wrap ratio ratio-16x9">
+                <iframe src="https://www.google.com/maps?q=Hyderabad&output=embed" allowfullscreen loading="lazy"
+                    title="CSK office location on Google Maps"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="accordion" id="faq">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">
+                            What services does CSK provide?
+                        </button>
+                    </h2>
+                    <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            We develop responsive websites, web applications, and Bootstrap-based UI designs for businesses of all sizes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo">
+                            Is the website mobile friendly?
+                        </button>
+                    </h2>
+                    <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            Yes. Every page is built using Bootstrap 5 and works perfectly on desktop, tablet, and mobile devices.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree">
+                            How can I contact your team?
+                        </button>
+                    </h2>
+                    <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            Use the contact form above or email us at contact@csk.com anytime during working hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 16px; border: none;">
+                <div class="modal-body text-center p-5">
+                    <div class="icon-circle success mx-auto mb-3" style="width: 64px; height: 64px;">
+                        <i class="bi bi-check-lg fs-4"></i>
+                    </div>
+                    <h4 class="fw-bold mb-2">Message Sent!</h4>
+                    <p class="text-muted mb-4">Thank you for reaching out. We'll get back to you shortly.</p>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-md-6">
+                    <h4>CSK</h4>
+                    <p>Professional Bootstrap 5 internship project — responsive, modern, and component-driven.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="index.html" class="text-white text-decoration-none me-3">Home</a>
+                    <a href="about.html" class="text-white text-decoration-none me-3">About</a>
+                    <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center footer-bottom">
+                &copy; 2026 CSK. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

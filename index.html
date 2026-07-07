@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSK | Home — Bootstrap 5 UI Project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-bootstrap-fill"></i> CSK
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 fade-in">
+                    <span class="hero-badge">
+                        <i class="bi bi-stars"></i> Bootstrap 5 Internship Project
+                    </span>
+                    <h1>Build Beautiful Websites with Bootstrap 5</h1>
+                    <p class="lead">
+                        A modern, responsive website remixing Bootstrap components — Navbar, Hero, Cards, Grid, Forms, and Footer — into a polished multi-page experience.
+                    </p>
+                    <a href="about.html" class="btn btn-light btn-lg me-3">Learn More</a>
+                    <a href="contact.html" class="btn btn-outline-primary btn-lg">Contact Us</a>
+                </div>
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="hero-img-wrap text-center">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900"
+                            class="img-fluid" alt="Developer working on a laptop">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Offer</span>
+                <h2>Our Features</h2>
+                <p>Simple, responsive, and modern — built entirely with Bootstrap 5 utility classes and components.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <div class="icon-circle primary">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h4>Responsive</h4>
+                            <p>Looks great on desktop, tablet, and mobile devices with Bootstrap's grid system.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <div class="icon-circle success">
+                                <i class="bi bi-speedometer2"></i>
+                            </div>
+                            <h4>Fast</h4>
+                            <p>Bootstrap provides optimized, production-ready components for rapid development.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <div class="icon-circle danger">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <h4>Modern Design</h4>
+                            <p>Clean layouts with thoughtful spacing, gradients, and attractive visual hierarchy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel -->
+    <section class="bg-light content-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2>What Our Clients Say</h2>
+                <p>Real feedback from businesses we've helped build their online presence.</p>
+            </div>
+
+            <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 text-center">
+                                    <img src="https://randomuser.me/api/portraits/women/68.jpg" class="testimonial-avatar" alt="Sarah Johnson">
+                                    <h5 class="mt-3 mb-0">Sarah Johnson</h5>
+                                    <p class="text-muted small">CEO, TechStart Inc.</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <i class="bi bi-quote display-4 text-primary opacity-50"></i>
+                                    <p class="testimonial-text">"CSK delivered a stunning Bootstrap website that works flawlessly on every device. Their attention to detail and modern design approach exceeded our expectations."</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 text-center">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" class="testimonial-avatar" alt="David Chen">
+                                    <h5 class="mt-3 mb-0">David Chen</h5>
+                                    <p class="text-muted small">Founder, DesignHub</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <i class="bi bi-quote display-4 text-primary opacity-50"></i>
+                                    <p class="testimonial-text">"The team remixed Bootstrap components creatively — not a generic template. Fast turnaround, clean code, and a polished UI we're proud to show clients."</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 text-center">
+                                    <img src="https://randomuser.me/api/portraits/women/26.jpg" class="testimonial-avatar" alt="Emily Rodriguez">
+                                    <h5 class="mt-3 mb-0">Emily Rodriguez</h5>
+                                    <p class="text-muted small">Marketing Director, Bloom Co.</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <i class="bi bi-quote display-4 text-primary opacity-50"></i>
+                                    <p class="testimonial-text">"From navbar to footer, every section feels cohesive and professional. Responsive on mobile, beautiful on desktop — exactly what we needed for our internship-level showcase project."</p>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="bg-light content-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Services</span>
+                <h2>What We Do</h2>
+                <p>Explore our core offerings — each card remixed from Bootstrap's card component patterns.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card service-card">
+                        <div class="img-wrap">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600"
+                                class="card-img-top" alt="Web Design">
+                        </div>
+                        <div class="card-body">
+                            <h4>Web Design</h4>
+                            <p>Responsive UI crafted with Bootstrap 5 components and custom styling.</p>
+                            <a href="about.html" class="btn btn-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card service-card">
+                        <div class="img-wrap">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600"
+                                class="card-img-top" alt="Frontend Development">
+                        </div>
+                        <div class="card-body">
+                            <h4>Frontend Development</h4>
+                            <p>HTML, CSS, and Bootstrap projects built with clean, maintainable code.</p>
+                            <a href="about.html" class="btn btn-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card service-card">
+                        <div class="img-wrap">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600"
+                                class="card-img-top" alt="UI UX Design">
+                        </div>
+                        <div class="card-body">
+                            <h4>UI/UX Design</h4>
+                            <p>Creative and modern interface design focused on user experience.</p>
+                            <a href="about.html" class="btn btn-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner text-center text-white">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's create something amazing together.</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-md-6">
+                    <h4>CSK</h4>
+                    <p>Professional Bootstrap 5 internship project — responsive, modern, and component-driven.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="index.html" class="text-white text-decoration-none me-3">Home</a>
+                    <a href="about.html" class="text-white text-decoration-none me-3">About</a>
+                    <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center footer-bottom">
+                &copy; 2026 CSK. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
