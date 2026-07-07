@@ -1,14 +1,13 @@
 # CSK — Bootstrap 5 UI Project
 
-A responsive multi-page website built for the **Bootstrap 5 Internship Task** at Keshavsoft. Three pages created by remixing official Bootstrap 5 components — not copy-pasted wholesale.
-
+A responsive multi-page website built for the **Bootstrap 5 Internship Task** at Keshavsoft. Three pages created by remixing official Bootstrap 5 component.
 ---
 
 ## Live Demo
 
 | | URL |
 |---|-----|
-| **GitHub Repository** | `https://github.com/yourusername/Bootstrap_Keshavsoft` |
+| **GitHub Repository** | `https://github.com/CHIDARISAIKRISHNA/KeshavSoftTask1` |
 | **Live Preview** | `https://yourusername.github.io/Bootstrap_Keshavsoft` |
 
 > Replace `yourusername` with your actual GitHub username after deploying.
