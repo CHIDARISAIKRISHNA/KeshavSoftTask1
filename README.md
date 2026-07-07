@@ -8,7 +8,7 @@ A responsive multi-page website built for the **Bootstrap 5 Internship Task** at
 | | URL |
 |---|-----|
 | **GitHub Repository** | `https://github.com/CHIDARISAIKRISHNA/KeshavSoftTask1` |
-| **Live Preview** | `https://yourusername.github.io/Bootstrap_Keshavsoft` |
+| **Live Preview** | `https://saikrishnakeshavsofttask1.netlify.app/` |
 
 > Replace `yourusername` with your actual GitHub username after deploying.
 
